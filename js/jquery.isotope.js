@@ -149,9 +149,9 @@
         // i.e. transformFnNotations.scale(0.5) >> 'scale3d( 0.5, 0.5, 1)'
     var transformFnNotations = Modernizr.csstransforms3d ?
       { // 3D transform functions
-        translate : function ( position ) {
-          return 'translate3d(' + position[0] + 'px, ' + position[1] + 'px, 0) ';
-        },
+        // translate : function ( position ) {
+        //   return 'translate3d(' + position[0] + 'px, ' + position[1] + 'px, 0) ';
+        // },
         scale : function ( scale ) {
           return 'scale3d(' + scale + ', ' + scale + ', 1) ';
         }
@@ -426,7 +426,7 @@
           // filter & find
           $atoms = selector ? $elems.filter( selector ).add( $elems.find( selector ) ) : $elems,
           // base style for atoms
-          atomStyle = { position: 'absolute' };
+          atomStyle = { position: 'relative' };
 
       // filter out text nodes
       $atoms = $atoms.filter( function( i, atom ) {
