@@ -633,3 +633,13 @@ i {
 	color: #fff;
 	font-size: 90px;
 }
+.portfolio-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.isotope-item {
+	position: relative;
+	transform: none;
+}
