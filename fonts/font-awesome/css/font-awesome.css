@@ -594,6 +594,12 @@
 .fa-github-square:before {
   content: "\f092";
 }
+.fa-envelope-square:before {
+  content: "\f092";
+}
+.fa-envelope-square:before {
+  content: "\f092";
+}
 .fa-upload:before {
   content: "\f093";
 }
@@ -620,6 +626,9 @@
   content: "\f09a";
 }
 .fa-github:before {
+  content: "\f09b";
+}
+.fa-envelope:before {
   content: "\f09b";
 }
 .fa-unlock:before {
@@ -937,6 +946,9 @@
   content: "\f112";
 }
 .fa-github-alt:before {
+  content: "\f113";
+}
+.fa-envelope-alt:before {
   content: "\f113";
 }
 .fa-folder-o:before {
