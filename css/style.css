@@ -643,3 +643,18 @@ i {
 	position: relative;
 	transform: none;
 }
+
+.email-link{
+		line-height: 20px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.email-link:hover{
+	color: #121d1f;
+  transition: all 0.5s;
+}
